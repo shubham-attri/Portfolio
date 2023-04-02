@@ -950,7 +950,28 @@ wrapper .dragit{
   widht:100vw;
   margin:0rem;
   overflow: hidden;
+  display: flex;
+  gap: 4vmin;
+  position: relative;
+  /*left:   50%;*/
+  /*top: 50%;*/
+  transform:translate(0,50%);
+
   /*background-color: black;*/
+}
+#image-track .image{
+  width: 40vw;
+  height: 56vh;
+  object-fit: cover;
+  object-position: center;
+}
+#image-track{
+  display: flex;
+  gap: 4vmin;
+  position: absolute;
+  left:   50%;
+  top: 50%;
+  transform:translate(0,50%);
 }
 
 
