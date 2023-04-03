@@ -83,7 +83,7 @@ textarea {
 
 body {
   background-color: var(--body-color);
-  background-color: antiquewhite;
+  background-color: rgb(238, 238, 238);
   color: var(--text-color);
   transition: 0.4s; /* for light mode animation */
 }
@@ -165,7 +165,7 @@ body.light-theme {
   /*--body-color:#7d74ce*/
   --body-color: hsl(var(--second-hue), 100%, 99%);
   --container-color: #fcfcfc;
-  background-color: antiquewhite;
+  background-color: whitesmoke;
 }
 
 /*========== 
@@ -771,7 +771,7 @@ wrapper .dragit{
   padding: 1rem;
   line-height: 1.75;
   font-weight: bolder;
-  background-image: linear-gradient(to right, #7d74ce, #e14d4d, #7d74ce, #7d74ce);
+  background-image: linear-gradient(to right, #7d74ce, #7b59f3, #7d74ce, #7d74ce);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
